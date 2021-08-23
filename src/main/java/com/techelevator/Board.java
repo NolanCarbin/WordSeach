@@ -37,16 +37,6 @@ public class Board {
 
 
     public void addWordsToBoard(){
-        // change to for loop
-        //add 4 sets for each row, col, drow, dcol
-        //add a check for if the new random row is in the sets
-        //if it is get a new one
-        //if all possible cells and directions don't work
-        //swap the word (words.set(i, newWord)
-        //need to make a extra list with backup words to use
-        //once swapped loop until all possible rows, cols, drows, and dcols are in the set
-        //and then swap again
-        //continue until the there is a possible location and direction to put the word.
         for(String word : this.words){
             word = word.toLowerCase();
             boolean wordAdded = false;
